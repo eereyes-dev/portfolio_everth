@@ -89,7 +89,7 @@ export const translations: Record<'es' | 'en', Translations> = {
           description:
             'Solución multiplataforma con Angular/Ionic y backend .NET Core. Formularios reactivos con validación en tiempo real, operaciones CRUD y arquitectura basada en servicios.',
           stack: ['Ionic 7+', 'Angular 16+', 'TypeScript', '.NET API', 'SQL Server'],
-          githubUrl: 'https://github.com/reyesEspinozaE',
+          githubUrl: 'https://github.com/eereyes-dev',
         },
         {
           title: '📁 Sistema de gestión documental',
@@ -196,7 +196,7 @@ export const translations: Record<'es' | 'en', Translations> = {
           description:
             'Cross-platform solution with Angular/Ionic and a .NET Core backend. Reactive forms with real-time validation, CRUD operations, and a service-based architecture.',
           stack: ['Ionic 7+', 'Angular 16+', 'TypeScript', '.NET API', 'SQL Server'],
-          githubUrl: 'https://github.com/reyesEspinozaE',
+          githubUrl: 'https://github.com/eereyes-dev',
         },
         {
           title: '📁 Document Management System',
@@ -218,7 +218,7 @@ export const translations: Record<'es' | 'en', Translations> = {
 
 export const contactLinks = [
   { label: '✉ reyesev603@gmail.com', href: 'mailto:reyesev603@gmail.com' },
-  { label: 'in LinkedIn', href: 'https://linkedin.com/in/everth-reyes-espinoza' },
-  { label: '⌥ GitHub', href: 'https://github.com/reyesEspinozaE' },
+  { label: 'in LinkedIn', href: 'https://www.linkedin.com/in/everth-reyes-espinoza-63b165251/' },
+  { label: '⌥ GitHub', href: 'https://github.com/eereyes-dev' },
   { label: '☎ +506 7080-5460', href: 'tel:+50670805460' },
 ]
