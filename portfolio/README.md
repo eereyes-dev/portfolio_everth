@@ -1,6 +1,6 @@
 # Everth Reyes — Portfolio
 
-Portfolio personal construido con **React + Vite + TypeScript**.
+Portfolio personal construido con **React + Vite + TypeScript**. (Sientete libre de tomarlo como referencia)
 
 ## Stack
 
