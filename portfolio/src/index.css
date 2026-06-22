@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ── TOKENS ───────────────────────────────────────────── */
+:root[data-theme='dark'] {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #21262d;
+  --cyan: #00d4ff;
+  --violet: #7c3aed;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --nav-bg: rgba(13, 17, 23, 0.88);
+  --tag-bg: rgba(0, 212, 255, 0.07);
+  --tag-border: rgba(0, 212, 255, 0.18);
+}
+
+:root[data-theme='light'] {
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --border: #d0d7de;
+  --cyan: #0078a8;
+  --violet: #6d28d9;
+  --text: #1c2128;
+  --muted: #57606a;
+  --nav-bg: rgba(245, 247, 250, 0.92);
+  --tag-bg: rgba(0, 120, 168, 0.07);
+  --tag-border: rgba(0, 120, 168, 0.2);
+}
+
+/* ── RESET ────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ── BASE ─────────────────────────────────────────────── */
+:root {
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
